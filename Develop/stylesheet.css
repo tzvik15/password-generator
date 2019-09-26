@@ -1,0 +1,47 @@
+.title {
+    margin-left:50px;
+    text-align:center;
+}
+
+body {
+    background-color:rgb(233, 229, 229)
+}
+
+.subtitle {
+    background-color:whitesmoke;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    padding-bottom:250px;
+}
+
+#password {
+    width:25%;
+    height:70px;
+    margin-left:50px;
+    position:relative;
+    top:-200px;
+    left: 36%;
+    border-style:dotted;    
+}
+
+#generate {
+    position:relative;
+    top:-140px;
+    left:12%;
+    padding:15px;
+    background-color:rgb(209, 7, 7);
+    color:whitesmoke;
+    border-radius: 25px;
+    
+}
+
+#copy {
+    position:relative;
+    top:-140px;
+    left:14%;
+    padding:15px;
+    background-color:blue;
+    color:whitesmoke;
+    border-radius:25px;
+}
