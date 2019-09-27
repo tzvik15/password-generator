@@ -9,20 +9,24 @@ body {
 
 .subtitle {
     background-color:whitesmoke;
-    border-style:solid;
-    border-width:2px;
+    border-style:outset;
+    border-width:3px;
     border-color:black;
     padding-bottom:250px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top:30px;
+    
 }
 
 #password {
     width:25%;
-    height:70px;
+    height:75px;
     margin-left:50px;
     position:relative;
-    top:-200px;
+    top:-220px;
     left: 36%;
-    border-style:dotted;    
+    border-style:dashed;    
 }
 
 #generate {
@@ -44,4 +48,75 @@ body {
     background-color:blue;
     color:whitesmoke;
     border-radius:25px;
+}
+
+@media screen and (min-width:769px) and (max-width:980px) {
+.subtitle{
+    margin-left:30px;
+    margin-right:50px;
+}
+#password{
+    margin-left:-200px;
+    width:75%;
+}
+#generate{
+    top:-180px;
+    left:-300px;
+}
+#copy{
+    top:-180px;
+    left:-50px;
+}
+
+}
+@media screen and (min-width:641px) and (max-width:768px) {
+.subtitle{
+    margin-left:30px;
+    margin-right:30px;
+}  
+#password{
+    left:20px;
+    width:80%;
+} 
+#generate{
+    top:-200px;
+    left:200px;
+} 
+#copy{
+    top:-200px;
+    left:200px;
+}
+}
+@media screen and (max-width:640px) {
+.title{
+    margin-left:0px;
+}
+.subtitle{
+    margin-left:0px;
+    margin-right:0px;
+}
+#password{
+    width:80%;
+    margin-left:0px;
+    left:10%;
+}
+#generate{
+    top:-210px;
+    left:50px;
+}
+#copy{
+    top:-205px;
+    left:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
